@@ -6,3 +6,13 @@ h2 {
 P {
   color:red;
 }
+
+#id1 {
+  color:blue;
+  font-family:verdana;
+}
+
+#id2 {
+  text-align:center;
+  color:Red;
+}
