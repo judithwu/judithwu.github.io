@@ -4,68 +4,142 @@
   <title>repl.it</title>
     
   <body>
-    <h3>A valid HTML page will have &lt!DOCTYPE html&gt, head, html, and body.</h3>
+    <h3>A valid HTML page will have &lt;!DOCTYPE html&gt;, head, html, and body.</h3>
     
   <h1>HTML</h1>
-  <p>&lthtml&gt</p>
+  &lt;html&gt;
   <p>The HTML tag tells the browser that this is an HTML document.</p>
-  <p>&lt!DOCTYPE html&gt</p>
-  <p>&lthtml&gt</p>
+  &lt;!DOCTYPE html&gt;<br>
+  &lt;html&gt;
   <p>blahblahblah</p>
   <p>blahblah</p>
-  <p>&lt/html&gt</p>
+  &lt;/html&gt;
+  
+  <hr>
   
   <h1>Header</h1>
-  <p>&lthead&gt</p>
+  &lt;head&gt;
   <p>The head tag is a container for all head elements.</p>
-  <p>&lthead&gt</p>
+  &lt;head&gt;
   <p>(head elements)</p>
-  <p>&lt/head&gt</p>
-  
+  &lt;/head&gt;
+  <hr>
   <h1>Title</h1>
-  <p>&lttitle&gt</p>
+  &lt;title&gt;
   <p>The title tag defines the title in the browser toolbar.</p>
-  <p>&lttitle&gtblah&lt/title&gt</p>
-  
+  &lt;title&gt;blah&lt;/title&gt;
+  <hr>
   <h1>Body</h1>
-  <p>&ltbody&gt</p>
+  &lt;body&gt;
   <p>The body tag contains all the contents of the document.</p>
-  <p>&ltbody&gt</p>
+  &lt;body&gt;
   <p>afjsaodfjaosifjdiasfjosdfoi</p>
-  <p>&lt/body&gt</p>
-    
+  &lt;/body&gt;
+  <hr>
   <h1>Heading Tag</h1>
-  <p>&lth1&gt through &lth6&gt</p>
+  &lt;h1&gt; through &lt;h6&gt;
   <p>The heading tags are used to define HTML headings. h1 is biggest, h6 is smallest.</p>
+  &lt;h1&gt;,&lt;h2&gt;...
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
-  <h3>Heading 3</h3>
-  <h4>Heading 4</h4>
-  <h5>Heading 5</h5>
-  <h6>Heading 6</h6>
-    
+  <h3>...</h3>
+  
+  <hr>
   <h1>Paragraph</h1>
-  <p>&ltp&gt</p>
+  &lt;p&gt;
   <p>defines a paragraph</p>
+  &lt;This is a paragraph.&gt;
   <p>This is a paragraph.</p>
-  
+  <hr>
   <h1>Breaks</h1>
-  <p>&ltbr&gt</p>
+  &lt;br&gt;
   <p>Inserts a single line break</p>
+  <p>This text has a line&lt;br&gt;break.</p>
   <p>This text has a line<br>break.</p>
-  
+  <hr>
   <h1>Lines</h1>
-  <p>&lthr&gt</p>
+  &lt;hr&gt;
   <p>defines a break in an HTML page with a line</p>
   <p>It looks like this</p>
+  &lt;hr&gt;
+  <p>It looks like this</p>
+  <hr>  
   <hr>
-  <p>There's a line</p>
-  
   <h1>Comments</h1>
-  <p>&lt!--  --&gt</p>
+  &lt;!--  --&gt;
   <p>comment tag is used to insert comments in the source code, doesn't show up on browser</p>
   <p>Normally you can't see comments but it would look like this</p>
-  <p>&lt!--This is a visible comment--&gt</p>
+  &lt;!--This is a visible comment--&gt;
+  <hr>
+  <h1>Links</h1>
+  &lt;a&gt;
+  <p>defines a hyperlink</p>
+  &lt;a href="https://www.google.com/maps">Google maps&lt;/a&gt;
+  <a href="https://www.google.com/maps">Google maps</a>
+  <hr>
+  <h1>Images</h1>
+  <p>defines an image</p>
+  &lt;img src="https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067" alt="Animal" height="100" width="150"&gt;
+  <img src="https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067" alt="Animal" height="100" width="150">
+  <hr>
+  <h1>Lists</h1>
+  &lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;
+  <p>Unordered list, ordered list, list item</p>
+  &lt;ol&gt;
+  &lt;li&gt;
+  <ol>
+  <li>Cat</li>
+  <li>Dog</li>
+</ol>
+&lt;ul&gt;
+<ul>
+  <li>Cat</li>
+  <li>Dog</li>
+</ul>
+<hr>
+<h1>Tables</h1>
+&lt;table&gt;, &lt;tr>, &lt;th>, &lt;td>
+<p>defines table, table row, header cell, standard cell</p>
+&lt;table> <br>
+  &lt;tr><br>
+    &lt;th>Month&lt;/th><br>
+  &lt;/tr><br>
+  &lt;tr><br>
+  &lt;td>January&lt;/td><br>
+  &lt;/tr><br>
+  &lt;tr><br>
+    &lt;td>February&gt;/td><br>
+  
+&lt;/tr><br>
+&lt;/table>
+<table>
+  <tr>
+    <th>Month</th>
+  
+  </tr>
+  <tr>
+    <td>January</td>
+  
+  </tr>
+  <tr>
+    <td>February</td>
+   
+  </tr>
+</table>
+<hr>
+<h1>Blocks</h1>
+&lt;div>
+<p>defines a division in an HTML document</p>
+&lt;div><br>
+&lt;h3>This is a heading.&lt;/h3><br>
+&lt;p>This is a paragraph.&lt;p><br>
+&lt;/div>
+<div>
+  <h3>This is a heading.</h3>
+  <p>This is a paragraph.</p>
+</div>
+  
+  
   
   </body>
 </html>
