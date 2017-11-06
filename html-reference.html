@@ -4,21 +4,130 @@
   <title>HTML Reference</title>
     
   <body>
-    <p><a href="#A1">HTML</a></p>
-    <p><a href="#A2">Header</a></p>
-    <p><a href="#A3">Title</a></p>
-    <p><a href="#A4">Body</a></p>
-    <p><a href="#A5">Heading</a></p>
-    <p><a href="#A6">Paragraph</a></p>
-    <p><a href="#A7">Breaks</a></p>
-    <p><a href="#A8">Lines</a></p>
-    <p><a href="#A9">Comments</a></p>
-    <p><a href="#B1">Links</a></p>
-    <p><a href="#B2">Images</a></p>
-    <p><a href="#B3">Lists</a></p>
-    <p><a href="#B4">Tables</a></p>
-    <p><a href="#B5">Blocks</a></p>
-    <hr>
+    <style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Start Tag</th>
+        <th>End Tag</th>
+        <th>Example</th>
+      </tr>
+      <tr>
+        <td><p><a href="#A1">HTML</a></p></td>
+        <td>&lt;html></td>
+        <td>&lt;/html></td>
+        <td>&lt;html>blahblah&lt;html></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A2">Header</a></p></td>
+        <td>&lt;head></td>
+        <td>&lt;/head</td>
+        <td>&lt;head>blah head elements blah &lt;/head></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A3">Title</a></p></td>
+        <td>&lt;title></td>
+        <td>&lt;/title></td>
+        <td>&lt;title>BLAH&lt;/title></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A4">Body</a></p></td>
+        <td>&lt;body></td>
+        <td>&lt;/body></td>
+        <td>&lt;body>BLERGH BLEGH BLEH BLAH &lt;/body></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A5">Heading</a></p></td>
+        <td>&lt;h1>-&lt;h6></td>
+        <td>&lt;/h1>-&lt;/h6></td>
+        <td>&lt;h1&gt;Heading 1&lt;/h1><br>
+  &lt;h2&gt;Heading 2&lt;/h2><br>
+  &lt;h3>...&lt;/h3></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A6">Paragraph</a></p></td>
+        <td>&lt;p></td>
+        <td>&lt;/p></td>
+        <td>&lt;p>This is a paragraph.&lt;/p></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A7">Breaks</a></p></td>
+        <td>&lt;br></td>
+        <td>None</td>
+        <td><p>This text has a line&lt;br&gt;break.</p></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A8">Lines</a></p></td>
+        <td>&lt;hr></td>
+        <td>None</td>
+        <td>&lt;hr></td>
+      </tr>
+      <tr>
+        <td><p><a href="#A9">Comments</a></p></td>
+        <td>&lt;!-- </td>
+        <td> --></td>
+        <td>&lt;!--This is a visible comment--&gt;</td>
+      </tr>
+      <tr>
+        <td><p><a href="#B1">Links</a></p></td>
+        <td>&lt;a href="Your link"&gt;Name Link&lt;/a></td>
+        <td>&lt;/a></td>
+        <td>&lt;a href="Url">Link name&lt;/a&gt;</td>
+      </tr>
+      <tr>
+        <td><p><a href="#B2">Images</a></p></td>
+        <td>&lt;img></td>
+        <td>None</td>
+        <td>&lt;img src="url"&gt;</td>
+      </tr>
+      <tr>
+        <td><p><a href="#B3">Lists</a></p></td>
+        <td>&lt;ul&gt;,&lt;ol&gt;,&lt;li&gt;</td>
+        <td>&lt;/ul>,&lt;/ol>,&lt;/li></td>
+        <td> &lt;ol&gt;<br>
+        &lt;li>Cat&lt;/li><br>
+        &lt;li>Dog&lt;/li><br>
+        &lt;/ol><br>
+        &lt;ul&gt;<br>
+        &lt;li>Cat&lt;/li><br>
+        &lt;li>Dog&lt;/li><br>
+        &lt;/ul></td>
+      </tr>
+      <tr>
+        <td><p><a href="#B4">Tables</a></p></td>
+        <td>&lt;table&gt;, &lt;tr>, &lt;th>, &lt;td></td>
+        <td>&lt;/table>, &lt;/tr>, &lt;/th>, &lt;/td></td>
+        <td>&lt;table><br>
+        &lt;tr><br>
+        &lt;th>Heading&lt;/th><br>
+        &lt;th>Heading&lt;/th><br>
+        &lt;/tr><br>
+        &lt;tr><br>
+        &lt;td>Blah&lt;/td><br>
+        &lt;td>Blah&lt;/td><br>
+        &lt;/tr><br>
+        &lt;tr><br>
+        &lt;td>Blah&lt;/td><br>
+        &lt;td>Blah&lt;/td><br>
+        &lt;/tr><br>
+        &lt;/table></td>
+        <tr>
+        <td><p><a href="#B5">Blocks</a></p></td>
+        <td>&lt;div></td>
+        <td>&lt;/div></td>
+        <td>&lt;div><br>
+        &lt;h3>This is a heading.&lt;/h3><br>
+        &lt;p>This is a paragraph.&lt;p><br>
+        &lt;/div></td>
+      </tr>
+
+    </table>
+<hr>
     <h3>A valid HTML page will have &lt;!DOCTYPE html&gt;, head, html, and body.</h3>
     <hr>
   <h1 id="A1">HTML</h1>
@@ -119,7 +228,7 @@
   <hr>
   <h1 id="B1">Links</h1>
   <h3>Syntax</h3>
-  &lt;a&gt;
+  &lt;a href="Your link"&gt;Name Link&lt;/a>
   <h3>Description</h3>
   <p>defines a hyperlink</p>
   <h3>Example</h3>
