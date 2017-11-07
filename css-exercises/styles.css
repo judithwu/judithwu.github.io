@@ -1,18 +1,16 @@
-h3 {
-  color:blue;
-  font-family:verdana;
-}
-
-P {
-  color:red;
-}
-
 #id1 {
   color:blue;
   font-family:courier;
 }
 
-#id2 {
-  text-align:center;
-  color:Red;
+h3 {
+  color:red;
+  font-family:verdana;
 }
+  
+.blah {
+  text-align: center;
+  color: green;
+ }
+   
+
