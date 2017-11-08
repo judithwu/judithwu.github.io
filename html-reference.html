@@ -2,18 +2,14 @@
 <html>
   <head>
   <title>HTML Reference</title>
-    
+  <link href="html-reference.css" rel="stylesheet" type="text/css" />
+  </head>
   <body>
-    <style>
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-</style>
-   
 
-<h1><b>HTML REFERENCE PAGE</b></h1>
+<h1 class="title"><b>HTML REFERENCE PAGE</b></h1>
+
 <hr>
+<!--Start reference table-->
     <table>
       <tr>
         <th>Name</th>
@@ -50,8 +46,8 @@ table, th, td {
         <td>&lt;h1>-&lt;h6></td>
         <td>&lt;/h1>-&lt;/h6></td>
         <td>&lt;h1&gt;Heading 1&lt;/h1><br>
-  &lt;h2&gt;Heading 2&lt;/h2><br>
-  &lt;h3>...&lt;/h3></td>
+        &lt;h2&gt;Heading 2&lt;/h2><br>
+        &lt;h3>...&lt;/h3></td>
       </tr>
       <tr>
         <td><p><a href="#A6">Paragraph</a></p></td>
@@ -129,22 +125,27 @@ table, th, td {
         &lt;p>This is a paragraph.&lt;p><br>
         &lt;/div></td>
       </tr>
-
     </table>
-<hr>
-    <h3>A valid HTML page will have &lt;!DOCTYPE html&gt;, head, html, and body.</h3>
-    <hr>
+    <!--End reference table-->
+  <hr>
+    
+  <h3 class="intro">A valid HTML page will have &lt;!DOCTYPE html&gt;, head, html, and body.</h3>
+    
+  <hr>
+  
   <h1 id="A1">HTML</h1>
   <h3>Syntax</h3>
   &lt;html&gt;,&lt;/html>
   <h3>Description</h3>
   <p>The HTML tag tells the browser that this is an HTML document.</p>
   <h3>Example and Display</h3>
+  <div>
   &lt;html&gt;
   <p>blahblahblah</p>
   <p>blahblah</p>
   &lt;/html&gt;
-  <a href="https://www.w3schools.com/tags/tag_html.asp">Link to W3 Schools</a>
+  </div>
+  <a href="https://www.w3schools.com/tags/tag_html.asp">W3 Schools Reference</a>
   
   <hr>
   
@@ -154,72 +155,90 @@ table, th, td {
   <h3>Description</h3>
   <p>The head tag is a container for all head elements.</p>
   <h3>Example and Display</h3>
+  <div>
   &lt;head&gt;
   <p>(head elements)</p>
   &lt;/head&gt;
-  <a href="https://www.w3schools.com/tags/tag_head.asp">Link to W3 Schools</a>
+  </div>
+  <a href="https://www.w3schools.com/tags/tag_head.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A3">Title</h1>
   <h3>Syntax</h3>
   &lt;title&gt;,&lt;/title>
   <h3>Description</h3>
   <p>The title tag defines the title in the browser toolbar.</p>
   <h3>Example and Display</h3>
+  <div>
   &lt;title&gt;blah&lt;/title&gt;
-  <a href="https://www.w3schools.com/tags/tag_title.asp">Link to W3 Schools</a>
+  </div>
+  <a href="https://www.w3schools.com/tags/tag_title.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A4">Body</h1>
   <h3>Syntax</h3>
   &lt;body&gt;,&lt;/body>
   <h3>Description</h3>
   <p>The body tag contains all the contents of the document.</p>
   <h3>Example and Display</h3>
+  <div>
   &lt;body&gt;
   <p>afjsaodfjaosifjdiasfjosdfoi</p>
   &lt;/body&gt;
-  <a href="https://www.w3schools.com/tags/tag_body.asp">Link to W3 Schools</a>
+  </div>
+  <a href="https://www.w3schools.com/tags/tag_body.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A5">Heading</h1>
   <h3>Syntax</h3>
   &lt;h1&gt; through &lt;h6&gt;,&lt;/h1> through &lt;/h6>
   <h3>Description</h3>
   <p>The heading tags are used to define HTML headings. h1 is biggest, h6 is smallest.</p>
   <h3>Example</h3>
+  <div>
   &lt;h1&gt;Heading 1&lt;/h1><br>
   &lt;h2&gt;Heading 2&lt;/h2><br>
   &lt;h3>...&lt;/h3>
+  </div>
   <h3>Display</h3>
   <h1>Heading 1</h1>
   <h2>Heading 2</h2>
   <h3>...</h3>
-  <a href="https://www.w3schools.com/tags/tag_hn.asp">Link to W3 Schools</a>
+  <a href="https://www.w3schools.com/tags/tag_hn.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A6">Paragraph</h1>
   <h3>Syntax</h3>
   &lt;p&gt;,&lt;/p>
   <h3>Description</h3>
   <p>defines a paragraph</p>
   <h3>Example</h3>
+  <div>
   &lt;p>This is a paragraph.&lt;/p>
+  </div>
   <h3>Display</h3>
   <p>This is a paragraph.</p>
-  <a href="https://www.w3schools.com/tags/tag_p.asp">Link to W3 Schools</a>
+  <a href="https://www.w3schools.com/tags/tag_p.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A7">Breaks</h1>
   <h3>Syntax</h3>
   &lt;br&gt;
   <h3>Description</h3>
   <p>Inserts a single line break</p>
   <h3>Example</h3>
+  <div>
   <p>This text has a line&lt;br&gt;break.</p>
+  </div>
   <h3>Display</h3>
   <p>This text has a line<br>break.</p>
-  <a href="https://www.w3schools.com/tags/tag_br.asp">Link to W3 Schools</a>
+  <a href="https://www.w3schools.com/tags/tag_br.asp">W3 Schools Reference</a>
+  
   <hr>
   
   <h1 id="A8">Lines</h1>
@@ -228,12 +247,15 @@ table, th, td {
   <h3>Description</h3>
   <p>defines a break in an HTML page with a line</p>
   <h3>Example</h3>
+  <div>
   &lt;hr>
+  </div>
   <h3>Display</h3>
   <hr>  
-  <a href="https://www.w3schools.com/tags/tag_hr.asp">Link to W3 Schools</a>
+  <a href="https://www.w3schools.com/tags/tag_hr.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="A9">Comments</h1>
   <h3>Syntax</h3>
   &lt;!--  --&gt;
@@ -241,20 +263,26 @@ table, th, td {
   <p>comment tag is used to insert comments in the source code, doesn't show up on browser</p>
   <p>Normally you can't see comments but it would look like this</p>
   <h3>Example and Display</h3>
+  <div>
   &lt;!--This is a visible comment--&gt;
-  <a href="https://www.w3schools.com/tags/tag_comment.asp">Link to W3 Schools</a>
+  </div>
+  <a href="https://www.w3schools.com/tags/tag_comment.asp">W3 Schools Reference</a>
   
   <hr>
+  
   <h1 id="B1">Links</h1>
   <h3>Syntax</h3>
   &lt;a href="Your link"&gt;Name Link&lt;/a>
   <h3>Description</h3>
   <p>defines a hyperlink</p>
   <h3>Example</h3>
+  <div>
   &lt;a href="https://www.google.com/maps">Google maps&lt;/a&gt;
+  </div>
   <h3>Display</h3>
   <a href="https://www.google.com/maps">Google maps</a>
-  <a href="https://www.w3schools.com/tags/tag_a.asp">Link to W3 Schools</a>
+  <a href="https://www.w3schools.com/tags/tag_a.asp">W3 Schools Reference</a>
+  
   <hr>
   
   <h1 id="B2">Images</h1>
@@ -263,10 +291,13 @@ table, th, td {
   <h3>Description</h3>
   <p>defines an image</p>
   <h3>Example</h3>
-  &lt;img src="https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067" alt="Animal" height="100" width="150"&gt;
+  <div>
+  &lt;img src="goo.gl/LkVzSX" alt="Animal" height="100" width="150"&gt;
+  </div>
   <h3>Display</h3>
-  <img src="https://camo.mybb.com/e01de90be6012adc1b1701dba899491a9348ae79/687474703a2f2f7777772e6a71756572797363726970742e6e65742f696d616765732f53696d706c6573742d526573706f6e736976652d6a51756572792d496d6167652d4c69676874626f782d506c7567696e2d73696d706c652d6c69676874626f782e6a7067" alt="Animal" height="100" width="150">
-  <a href="https://www.w3schools.com/tags/tag_img.asp">Link to W3 Schools</a>
+  <img src="goo.gl/LkVzSX" alt="Animal" height="100" width="150">
+  <a href="https://www.w3schools.com/tags/tag_img.asp">W3 Schools Reference</a>
+  
   <hr>
   
   <h1 id="B3">Lists</h1>
@@ -275,14 +306,16 @@ table, th, td {
   <h3>Description</h3>
   <p>Unordered list, ordered list, list item</p>
   <h3>Example</h3>
+  <div>
   &lt;ol&gt;<br>
   &lt;li>Cat&lt;/li><br>
   &lt;li>Dog&lt;/li><br>
-&lt;/ol><br>
-&lt;ul&gt;<br>
+  &lt;/ol><br>
+  &lt;ul&gt;<br>
   &lt;li>Cat&lt;/li><br>
   &lt;li>Dog&lt;/li><br>
-&lt;/ul>
+  &lt;/ul>
+  </div>
 <h3>Display</h3>
 <ol>
   <li>Cat</li>
@@ -292,9 +325,10 @@ table, th, td {
   <li>Cat</li>
   <li>Dog</li>
 </ul>
-<a href="https://www.w3schools.com/tags/tag_li.asp">Link to W3 Schools</a>
-<a href="https://www.w3schools.com/tags/tag_ul.asp">Link to W3 Schools</a>
-<a href="https://www.w3schools.com/tags/tag_ol.asp">Link to W3 Schools</a>
+<a href="https://www.w3schools.com/tags/tag_li.asp">W3 Schools Reference</a>
+<a href="https://www.w3schools.com/tags/tag_ul.asp">W3 Schools Reference</a>
+<a href="https://www.w3schools.com/tags/tag_ol.asp">W3 Schools Reference</a>
+
 <hr>
 
 <h1 id="B4">Tables</h1>
@@ -303,6 +337,7 @@ table, th, td {
 <h3>Description</h3>
 <p>defines table, table row, header cell, standard cell</p>
 <h3>Example</h3>
+<div>
 &lt;table><br>
   &lt;tr><br>
     &lt;th>Name&lt;/th><br>
@@ -317,6 +352,7 @@ table, th, td {
     &lt;td>16&lt;/td><br>
   &lt;/tr><br>
 &lt;/table>
+</div>
   <h3>Display</h3>
  <table>
   <tr>
@@ -332,30 +368,30 @@ table, th, td {
     <td>16</td>
   </tr>
 </table>
-<a href="https://www.w3schools.com/tags/tag_table.asp">Link to W3 Schools</a>
-<a href="https://www.w3schools.com/tags/tag_td.asp">Link to W3 Schools</a>
-<a href="https://www.w3schools.com/tags/tag_tr.asp">Link to W3 Schools</a>
-<a href="https://www.w3schools.com/tags/tag_th.asp">Link to W3 Schools</a>
+<a href="https://www.w3schools.com/tags/tag_table.asp">W3 Schools Reference</a>
+<a href="https://www.w3schools.com/tags/tag_td.asp">W3 Schools Reference</a>
+<a href="https://www.w3schools.com/tags/tag_tr.asp">W3 Schools Reference</a>
+<a href="https://www.w3schools.com/tags/tag_th.asp">W3 Schools Reference</a>
+
 <hr>
 
 <h1 id="B5">Blocks</h1>
 <h3>Syntax</h3>
 &lt;div>, &lt;/div>
 <h3>Description</h3>
-<p>defines a division in an HTML document</p>
+<p>Defines a division in an HTML document and is often used in CSS to format them in block elements</p>
 <h3>Example</h3>
+<div>
 &lt;div><br>
 &lt;h3>This is a heading.&lt;/h3><br>
 &lt;p>This is a paragraph.&lt;p><br>
 &lt;/div>
+</div>
 <h3>Display</h3>
 <div>
-  <h3>This is a heading.</h3>
+  <h3>This is a heading</h3>
   <p>This is a paragraph.</p>
 </div>
-  <a href="https://www.w3schools.com/tags/tag_div.asp">Link to W3 Schools</a>
-    
-   <hr>
-    <a href="https://judithwu.github.io/">Back to homepage</a>
+  <a href="https://www.w3schools.com/tags/tag_div.asp">W3 Schools Reference</a>
 </body>
 </html>
