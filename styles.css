@@ -11,3 +11,31 @@
 img {
   width:50%;
 }
+/*HOME PAGE STYLING*/
+/*Styling tree images/captions*/
+
+.ashtreeimage{
+  height:195px;
+  width:150px;
+}
+
+.treeimage {
+  height:150px;
+  width:200px;
+}
+
+.imagecenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.textcenter {
+  text-align: center;
+}
+
+.treefriends {
+  height:165px;
+  width:300px;
+}
+/*End of that*/
+/*END OF HOME STYLING*/
