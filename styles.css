@@ -15,8 +15,8 @@ img {
 /*Styling tree images/captions*/
 
 .ashtreeimage{
-  height:195px;
-  width:150px;
+  height:300px;
+  width:250px;
 }
 
 .treeimage {
@@ -29,13 +29,14 @@ img {
     margin: 0 auto;
 }
 
-.textcenter {
-  text-align: center;
+.texts {
+  text-align: left;
 }
 
 .treefriends {
   height:165px;
   width:300px;
 }
+
 /*End of that*/
 /*END OF HOME STYLING*/
