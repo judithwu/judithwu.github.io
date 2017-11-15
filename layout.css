@@ -8,8 +8,7 @@ body {
 
 /* Style the header */
 .header {
-    background-color: #f0f0f5;
-    padding: 20px;
+    padding: 50px;
     text-align: center;
     font-family:"Trebuchet MS", Helvetica, sans-serif;
 }
@@ -50,6 +49,7 @@ body {
 .equalcolumn {
     float: left;
     width: 33.33%;
+    padding:25px;
 
 }
 
