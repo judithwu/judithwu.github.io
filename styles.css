@@ -31,7 +31,7 @@ img {
 }
 
 .texts {
-  text-align: left;
+  text-align: center;
 }
 
 .treefriends {
@@ -40,7 +40,6 @@ img {
 }
 
 .bgimage {
-  background-image: url("https://judithwu.github.io/images/BigTree.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -53,5 +52,62 @@ img {
   font-size: 50px;
   font-weight: 800;
   text-transform: uppercase;
-  
+}
+
+.floatimage {
+  float: right;
+  padding: 10px;
+}
+
+.newsfloatimage {
+  float: right;
+  padding: 10px;
+  height: 250px;
+  width: 400px;
+}
+
+.housetree {
+  float:left;
+  padding: 10px;
+  height: 250px;
+  width: 400px;
+}
+
+.link, .visited {
+    background-color: #33d6ff;
+    color: black;
+    padding: 14px 25px;
+    text-align: center; 
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    display: inline-block;
+}
+
+.hover, .going {
+    background-color: #6666ff;
+}
+
+/*Table styling*/
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+  background-color: #228B22;
+}
+/*End table styling*/
+
+.beach {
+  height:150px;
+  width: 300px;
 }
