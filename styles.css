@@ -53,7 +53,7 @@ img {
   font-weight: 800;
   text-transform: uppercase;
 }
-
+/*Image styles*/
 .rightfloat {
   float: right;
   padding: 10px;
@@ -73,6 +73,28 @@ img {
   width: 400px;
 }
 
+.image {
+  height: 225px;
+  width: 300px;
+}
+/*image styles*/
+
+
+/*Links*/
+.llink, .vvisited {
+  background-color: #009900;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display: inline-block;
+  
+}
+
+.hhover, .ggoing {
+  background-color: #009900;
+}
 .link, .visited {
     background-color: #33d6ff;
     color: black;
@@ -86,6 +108,17 @@ img {
 .hover, .going {
     background-color: #6666ff;
 }
+
+.circle {
+    border-radius: 100%;  
+    padding: 10px;
+    background: green;
+    display:inline-block;
+    line-height:100px;
+    text-decoration: none;
+    color: white;
+}
+/*End links*/
 
 /*Table styling*/
 th, td {
