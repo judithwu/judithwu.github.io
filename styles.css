@@ -54,19 +54,19 @@ img {
   text-transform: uppercase;
 }
 
-.floatimage {
+.rightfloat {
   float: right;
   padding: 10px;
 }
 
-.newsfloatimage {
+.floatimage {
   float: right;
   padding: 10px;
   height: 250px;
   width: 400px;
 }
 
-.housetree {
+.leftfloat {
   float:left;
   padding: 10px;
   height: 250px;
